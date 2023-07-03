@@ -1,0 +1,27 @@
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
+}
+
+.resume-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-section ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.resume-section ul li svg {
+  margin-right: 0.5rem;
+}
+
+
+
+a.link {
+    color: orange;
+  }

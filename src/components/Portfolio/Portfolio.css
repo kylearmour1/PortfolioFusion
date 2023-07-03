@@ -1,0 +1,65 @@
+/* Portfolio.css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio-section {
+  margin-top: 20px;
+  padding: 10px; /* Add padding for space around the edges */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* Add gap between the projects */
+}
+
+.portfolio-project {
+  flex-basis: calc(50% - 5px); /* Adjust the width and spacing to your preference */
+  margin-bottom: 20px;
+}
+
+/* Add this media query */
+@media (max-width: 768px) {
+  .portfolio-project {
+    flex-basis: 100%;
+  }
+}
+
+.project-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9; 
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 30px;
+}
+
+a.project-link {
+  color: orange;
+}

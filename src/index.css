@@ -1,0 +1,37 @@
+
+  
+  
+  body {
+    margin: 0;
+    /* background-image: linear-gradient(black, rgba(0, 0, 0, 0.795)); */
+    background: linear-gradient(to right, #434343 0%, black 100%); 
+    color: whitesmoke;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .header,
+  .footer {
+    width: 100%;
+    /* other styles... */
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+ 
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+ .hi .h2 .h3 .p {
+  font-size: 300px;
+ }
